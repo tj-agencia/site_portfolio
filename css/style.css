@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+    border: #B37136 .2rem solid; 
+    border-radius:50%;
+    padding: .5rem;
+}
+
+.links {
+    width: 100%;
+    height: auto;
+    background-color: #B37136;
+    padding: .5rem;
+}
+
+.links a {
+    margin-top: .4rem;
+    height: 90%;
+    padding: 2rem;
+    display: inline-block;
+    color: #B37136;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .links a {
+        font-size: 1rem;
+    }
+}
+
+
+#instagram {
+    background-color: #ffffff;
+    border: #ffffff 1rem solid;
+    border-radius: 50%;
+}
+
+#whatsapp {
+    background-color: #ffffff;
+    border: #ffffff 1rem solid;
+    border-radius: 50%;
+}
+
+#behance {
+    background-color: #ffffff;
+    border: #ffffff 1rem solid;
+    border-radius: 50%;
+}
+
+#email {
+    background-color: #ffffff;
+    border: #ffffff 1rem solid;
+    border-radius: 50%;
+}
+
+#clique {
+    width: 30px;
+    height: 40px;
+    margin-top: -0.5rem;
+}
+
+h1 {
+    margin-top: 3rem;
+    color: #1B263C;
+}
