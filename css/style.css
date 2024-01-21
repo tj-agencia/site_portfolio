@@ -92,24 +92,28 @@ header {
     background-color: #ffffff;
     border: #ffffff 1rem solid;
     border-radius: 50%;
+    width: 110%;
 }
 
 #whatsapp {
     background-color: #ffffff;
     border: #ffffff 1rem solid;
     border-radius: 50%;
+    width: 110%;
 }
 
 #behance {
     background-color: #ffffff;
     border: #ffffff 1rem solid;
     border-radius: 50%;
+    width: 105%;
 }
 
 #email {
     background-color: #ffffff;
     border: #ffffff 1rem solid;
     border-radius: 50%;
+    width: 106%;
 }
 
 #clique {
@@ -118,7 +122,7 @@ header {
     margin-top: -0.5rem;
 }
 
-h1 {
+h3 {
     margin-top: 3rem;
     color: #1B263C;
 }
