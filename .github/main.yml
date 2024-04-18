@@ -3,11 +3,11 @@ on:
     branches:
       - main
 
-name: 🚀 Deploy Site Agencia TJ on push
+name: 🚀 Deploy Site Agencia TJ no host on push
 
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Deploy Site Agencia TJ
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
